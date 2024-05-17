@@ -1,0 +1,45 @@
+.maplibregl-map {
+    width: 100%;
+    height: 100vh;
+}
+
+.maplibregl-compact-show {
+    display: none;
+}
+
+.maplibregl-ctrl-bottom-right {
+    display: none;
+}
+
+.marker-visible {
+    display: initial;
+}
+
+.marker-hidden {
+    display: none;
+}
+
+.maplibregl-popup-content {
+    border-radius: 12px;
+}
+
+.maplibregl-popup-close-button {
+    top: 6px;
+    right: 10px;
+    scale: 2;
+    padding: 0;
+    margin: 0;
+    padding-inline: 0;
+    padding-block: 0;
+    border-radius: 20px;
+}
+
+.popup-header {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.popup-text {
+    font-size: 13px;
+    font-weight: 400;
+}

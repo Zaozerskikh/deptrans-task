@@ -1,0 +1,16 @@
+version: '3.8'
+
+networks:
+  deptrans-task-prod-network:
+    driver: bridge
+
+services:
+  deptrans-task-prod:
+    container_name: deptrans-task-prod
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - "80:80"
+    networks:
+      - deptrans-task-prod-network
